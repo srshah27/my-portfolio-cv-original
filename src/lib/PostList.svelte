@@ -7,9 +7,9 @@
 		<div>
 			<div class="post__list__d1">
 				<h2 class="post__heading">
-					<a class="link-hidden" href={post.slug}>
+					<div class="link-hidden">
 						{post.title}
-					</a>
+					</div>
 				</h2>
 				<p class="pt-0 sm:text-lg">
 					<span class="text-neutral-100">{post.createdAt.substring(0, 10)}</span>
